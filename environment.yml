@@ -1,0 +1,19 @@
+name: can_wildfire_agents
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - geopandas
+  - pandas
+  - pyarrow
+  - pyogrio
+  - shapely
+  - matplotlib
+  - seaborn
+  - folium
+  - scikit-learn
+  - xgboost
+  - pip
+  - pip:
+      - streamlit
